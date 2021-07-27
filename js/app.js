@@ -120,4 +120,127 @@ if(wel == true){
   else{
     alert('We will improve it')
   }
+let counter=0
+for(let i =0 ; i<4;i++){
+  let q1=parseInt(prompt('Choose no. between 1-10'))
+  if(q1==5){
+      alert('Thats great its correct ^_^')
+      counter=counter+1;
+      break;
+  }
+
+  else if(q1<5){
+      alert('its lower')
+  }
+  else{
+      alert('its higher')
+  }
+} 
+for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 11-20'))
+    if(q1==17){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
   
+    else if(q1<17){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 21-30'))
+    if(q1==25){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
+  
+    else if(q1<25){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 31-40'))
+    if(q1==39){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
+  
+    else if(q1<39){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 41-50'))
+    if(q1==43){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
+  
+    else if(q1<43){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 51-60'))
+    if(q1==54){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
+  
+    else if(q1<54){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  for(let i =0 ; i<4;i++){
+    let q1=parseInt(prompt('Choose no. between 61-70'))
+    if(q1==62){
+        alert('Thats great its correct ^_^')
+        counter=counter+1;
+        break;
+    }
+  
+    else if(q1<62){
+        alert('its lower')
+    }
+    else{
+        alert('its higher')
+    }
+  } 
+  
+  
+
+  let player=['Ronaldo','Messi','Salah','Neymar','Suarez','Cavani','Benzema','Di maria','Kanti','dybala']
+
+  for (let i =0 ;i<6;i++){
+  let q7=prompt('Who one is my favorite player ?'+player).toLocaleLowerCase()
+
+  if (q7==player[5]){
+      alert('Your answer is correct ^_^')
+      counter=counter+1;
+      break;
+  }
+  else {
+      alert('Your answer is incorrect')
+  }
+}
+alert('your result is '+counter+' out of 7')
