@@ -12,6 +12,12 @@
     
     
   }
+  ol{
+    border-style: outset;
+    background-color:blue;
+    margin: 20px;
+    padding:  35px;
+  }
   
   a{
     text-decoration: none
