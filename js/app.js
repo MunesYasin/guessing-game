@@ -2,7 +2,7 @@
 
 
 
-let meal = prompt('Do you love mansaf?').toLowerCase()
+let meal = prompt('Do I love mansaf?').toLowerCase()
 while(meal !='yes' && meal !='y' && meal != "no" && meal!='n'){
     meal = prompt('Your answer must be yes or no or n or y ')
 }
@@ -12,110 +12,97 @@ while(meal !='yes' && meal !='y' && meal != "no" && meal!='n'){
  
 switch(meal){
     case 'yes' :
-        //console.log('yes');
-        alert('you love mansaf')
-        break;
     case 'y' :
         //console.log('yes');
-        alert('you love mansaf')
+        alert('thats true')
         break;
     case 'no' :
-        //console.log('no');
-        alert('you dont love mansaf')
-        break;    
      case 'n' :
         //console.log('no');
-        alert('you dont love mansaf')
-        break;
+        alert('that false')
+        break;    
+     
+        
 }
-let nation = prompt("Are you jordanian?").toLowerCase()
+let nation = prompt("Am I jordanian?").toLowerCase()
 while(nation !='yes' && nation !='y' && nation != "no" && nation!='n'){
     nation = prompt('Your answer must be yes or no or n or y ')
 }
 switch(nation){
     case 'yes' :
-        //console.log('yes');
-        alert('you are jordanian')
-        break;
     case 'y' :
         //console.log('yes');
-        alert('you are jordanian')
+        alert('thats true')
         break;
-    case 'no' :
+    
+        
+    case 'no' : 
+    case 'n' :
         //console.log('no');
-        alert('you are not jordanian')
+        alert('thats false')
         break;    
-     case 'n' :
-        //console.log('no');
-        alert('you are not jordanian')
-        break;
+     
+        
 }
 
-let interest = prompt("Do you interesting in software developer ?").toLowerCase()
+let interest = prompt("Am I interesting in software developer ?").toLowerCase()
 while(interest !='yes' && interest !='y' && interest != "no" && interest!='n'){
     interest = prompt('Your answer must be yes or no or n or y ')
 }
 switch(interest){
-    case 'yes' :
-        //console.log('yes');
-        alert('you are interseting in software')
-        break;
+    case 'yes' : 
     case 'y' :
         //console.log('yes');
-        alert('you are interseting in software')
+        alert('thats true')
         break;
-    case 'no' :
+   
+        
+    case 'no' : 
+    case 'n' :
         //console.log('no');
-        alert('you are not interseting in software')
+        alert('thats true')
         break;    
-     case 'n' :
-        //console.log('no');
-        alert('you are not interseting in software')
-        break;
+     
+      
 } 
-let game = prompt("Do you play Pubg ?").toLowerCase()
+let game = prompt("Do I play Pubg ?").toLowerCase()
 while(game !='yes' && game !='y' && game != "no" && game!='n'){
     game = prompt('Your answer must be yes or no or n or y ')
 }
 switch(game){
     case 'yes' :
-        //console.log('yes');
-        alert('you play pubg')
-        break;
     case 'y' :
         //console.log('yes');
-        alert('you play pubg')
+        alert('thats false')
         break;
+    
+       
     case 'no' :
+    case 'n' :
         //console.log('no');
-        alert('you dont play pubg')
+        alert('thats true')
         break;    
-     case 'n' :
-        //console.log('no');
-        alert('you dont play pubg')
-        break;
+     
 }
-let sport = prompt("Do you like sport ?").toLowerCase()
+let sport = prompt("Do I like sport ?").toLowerCase()
 while(sport !='yes' && sport !='y' && sport != "no" && sport!='n'){
     sport = prompt('Your answer must be yes or no or n or y ')
 }
 switch(sport){
-    case 'yes' :
-        //console.log('yes');
-        alert('you are an athletic person ')
-        break;
+    case 'yes' : 
     case 'y' :
         //console.log('yes');
-        alert('you are an athletic person')
+        alert('thats true ')
         break;
+  
+       
     case 'no' :
+    case 'n' :
         //console.log('no');
-        alert('you are not an athletic person')
+        alert('thats false')
         break;    
-     case 'n' :
-        //console.log('no');
-        alert('you are not an athletic person')
-        break;
+     
+        
 }
 
 
