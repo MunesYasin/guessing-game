@@ -85,7 +85,7 @@ for(let i =0 ; i<4;i++){
       alert('its higher')
       
   }
-  else{
+  else {
       alert('plz input no. you lost one attempt ')
   }
 } }
