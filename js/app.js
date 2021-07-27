@@ -234,7 +234,7 @@ for(let i =0 ; i<4;i++){
   for (let i =0 ;i<6;i++){
   let q7=prompt('Who one is my favorite player ?'+player).toLocaleLowerCase()
 
-  if (q7==player[5]){
+  if (q7=='cavani'){
       alert('Your answer is correct ^_^')
       counter=counter+1;
       break;
