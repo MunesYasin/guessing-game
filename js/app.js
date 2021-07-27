@@ -81,11 +81,11 @@ for(let i =0 ; i<4;i++){
       alert('its lower')
       
   }
-  else if(q1>y){
+  else if(q1>y) {
       alert('its higher')
       
   }
-  else {
+  else{
       alert('plz input no. you lost one attempt ')
   }
 } }
