@@ -1,5 +1,4 @@
 'use strict';
-
 let username = prompt('Whats your name ?')
 
 //console.log(username)
