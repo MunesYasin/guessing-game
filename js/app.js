@@ -1,5 +1,8 @@
 'use strict';
+let username = prompt('Whats your name ?')
 
+//console.log(username)
+alert('Hello '+username+' .Welcome to our website')
 
 function qua(x){
 let meal = x
@@ -51,10 +54,7 @@ switch(game){
 quas(prompt("Do I play Pubg ?").toLowerCase())
 quas(prompt("Do I like sport?").toLowerCase())
 
-let username = prompt('Whats your name ?')
 
-//console.log(username)
-alert('Hello '+username+' .Welcome to our website')
 
 let wel=confirm('Is our website beautiful')
 //console.log(wel)
@@ -112,4 +112,4 @@ quastion('Choose no. between 51-60', 54);
       alert('Your answer is incorrect')
   }
 }
-alert('your result is '+counter+' out of 7')
+alert(username+'We finish the quiz. your result is '+counter+' out of 7')
