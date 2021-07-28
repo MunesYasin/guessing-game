@@ -1,6 +1,10 @@
 'use strict';
 let username = prompt('Whats your name ?')
 
+while (username == 'null' || username == ''){
+let username =prompt('Plz enter your name')
+}
+
 //console.log(username)
 alert('Hello '+username+' .Welcome to our website')
 
