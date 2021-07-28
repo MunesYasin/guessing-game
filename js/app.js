@@ -4,7 +4,7 @@ let username = prompt('Whats your name ?')
 //console.log(username)
 alert('Hello '+username+' .Welcome to our website')
 
-function qua(x){
+function quastionAboutMe1(x){
 let meal = x
 while(meal !='yes' && meal !='y' && meal != "no" && meal!='n'){
     meal = prompt('Your answer must be yes or no or n or y ')
@@ -25,12 +25,12 @@ switch(meal){
         
 }
 } 
-qua(prompt('Do I love mansaf?').toLowerCase())
-qua(prompt('Am I jordanian?').toLowerCase())
-qua(prompt('Am I interesting in software developer ?').toLowerCase())
+quastionAboutMe1(prompt('Do I love mansaf?').toLowerCase())
+quastionAboutMe1(prompt('Am I jordanian?').toLowerCase())
+quastionAboutMe1(prompt('Am I interesting in software developer ?').toLowerCase())
 
 
-function quas(x){
+function quastionAboutMe2(x){
 let game = x
 while(game !='yes' && game !='y' && game != "no" && game!='n'){
     game = prompt('Your answer must be yes or no or n or y ')
@@ -51,8 +51,8 @@ switch(game){
      
 }
 } 
-quas(prompt("Do I play Pubg ?").toLowerCase())
-quas(prompt("Do I like sport?").toLowerCase())
+quastionAboutMe2(prompt("Do I play Pubg ?").toLowerCase())
+quastionAboutMe2(prompt("Do I like sport?").toLowerCase())
 
 
 
@@ -68,7 +68,7 @@ if(wel == true){
 
 
 let counter=0
-function quastion(x,y){
+function numberQuastion(x,y){
 for(let i =0 ; i<4;i++){
   let q1=parseInt(prompt(x))
   if(q1==y){
@@ -89,12 +89,12 @@ for(let i =0 ; i<4;i++){
       alert('plz input no. you lost one attempt ')
   }
 } }
-quastion('Choose no. between 1-10', 5);
-quastion('Choose no. between 11-20', 14);
-quastion('Choose no. between 21-30', 27);
-quastion('Choose no. between 31-40', 36);
-quastion('Choose no. between 41-50', 50);
-quastion('Choose no. between 51-60', 54);
+numberQuastion('Choose no. between 1-10', 5);
+numberQuastion('Choose no. between 11-20', 14);
+numberQuastion('Choose no. between 21-30', 27);
+numberQuastion('Choose no. between 31-40', 36);
+numberQuastion('Choose no. between 41-50', 50);
+numberQuastion('Choose no. between 51-60', 54);
   
   
 
