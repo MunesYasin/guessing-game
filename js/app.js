@@ -1,8 +1,8 @@
 'use strict';
 let username = prompt('Whats your name ?')
 
-while (username == 'null' || username == ''){
-let username =prompt('Plz enter your name')
+while (username == null|| username == ''){
+username =prompt('Plz enter your name')
 }
 
 //console.log(username)
@@ -10,7 +10,8 @@ alert('Hello '+username+' .Welcome to our website')
 
 function quastionAboutMe1(x){
 let meal = x
-while(meal !='yes' && meal !='y' && meal != "no" && meal!='n'){
+
+while(meal !="yes" && meal !="y" && meal != "no" && meal!="n"){
     meal = prompt('Your answer must be yes or no or n or y ')
 }
 
@@ -29,13 +30,14 @@ switch(meal){
         
 }
 } 
-quastionAboutMe1(prompt('Do I love mansaf?').toLowerCase())
-quastionAboutMe1(prompt('Am I jordanian?').toLowerCase())
-quastionAboutMe1(prompt('Am I interesting in software developer ?').toLowerCase())
+quastionAboutMe1(prompt('Do I love mansaf?'))
+quastionAboutMe1(prompt('Am I jordanian?'))
+quastionAboutMe1(prompt('Am I interesting in software developer ?'))
 
 
 function quastionAboutMe2(x){
 let game = x
+
 while(game !='yes' && game !='y' && game != "no" && game!='n'){
     game = prompt('Your answer must be yes or no or n or y ')
 }
@@ -52,11 +54,14 @@ switch(game){
         //console.log('no');
         alert('thats true')
         break;    
+
+        
+
      
 }
 } 
-quastionAboutMe2(prompt("Do I play Pubg ?").toLowerCase())
-quastionAboutMe2(prompt("Do I like sport?").toLowerCase())
+quastionAboutMe2(prompt("Do I play Pubg ?"))
+quastionAboutMe2(prompt("Do I like sport?"))
 
 
 
