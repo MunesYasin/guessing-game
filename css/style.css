@@ -1,5 +1,8 @@
 .colorul{
     color: firebrick;
+    position:fixed;
+    right: 5px;
+    top: 5px;
   }
   
   
@@ -45,4 +48,11 @@
   .starimage{
     height: 50px;
     width: 50px;
+  }
+ 
+  #AboutMe{
+    color: #000;
+    position: sticky;
+    right: 5px;
+    top: 5px;
   }

@@ -122,3 +122,5 @@ numberQuastion('Choose no. between 51-60', 54);
   }
 }
 alert(username+' We finish the quiz. your result is '+counter+' out of 7')
+
+
