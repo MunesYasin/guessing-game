@@ -1,8 +1,8 @@
 #TopTen{
     color: firebrick;
     position:fixed;
-    right: 5px;
-    top: 5px;
+    right: 20px;
+    top: 20px;
   }
   
   
@@ -53,6 +53,6 @@
   #AboutMe{
     color: #000;
     position: sticky;
-    right: 5px;
-    top: 5px;
+    right: 20px;
+    top: 20px;px;
   }
